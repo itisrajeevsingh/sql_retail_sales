@@ -96,7 +96,7 @@ GROUP BY category;
 4. **Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.**:
 ```sql
 SELECT
-    ROUND(AVG(age), 2) as avg_age
+    ROUND(AVG(age), 2)
 FROM retail_sales
 WHERE category = 'Beauty'
 ```
